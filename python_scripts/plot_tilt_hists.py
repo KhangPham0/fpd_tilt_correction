@@ -27,7 +27,7 @@ def plotHists(inFiles, bins):
     xhighs = np.full(nFiles, 300)
     canvas, histos = psr.plotThem(nFiles, filesArr, Hs, xlows, xhighs, bins)
 
-    return canvas
+    return canvas, histos
 
 
 #####################################################
